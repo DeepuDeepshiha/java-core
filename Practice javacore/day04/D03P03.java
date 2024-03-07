@@ -1,6 +1,6 @@
 package javacore.day04;
 
-public class D03P03 {
+public class D04P03 {
 	public static void main(String[] args)
 	{
 		Applicant a=new Applicant("Mary","Assistant",20);
