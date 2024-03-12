@@ -13,7 +13,7 @@ class D06P09{
 		tr.put(new Car("Benz", 900000.0), "4"); 
 		double keyToReplace = 80050.0; 
 		String newValue = "Reva"; 
-		for (Map.Entry<Car1, String> entry : tr.entrySet()) 
+		for (Map.Entry<Car, String> entry : tr.entrySet()) 
 		{ 
 			if (entry.getKey().price == keyToReplace) 
 			{ 
