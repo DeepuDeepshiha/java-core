@@ -15,13 +15,18 @@ class D06P09{
 		String newValue = "Reva"; 
 		for (Map.Entry<Car, String> entry : tr.entrySet()) 
 		{ 
-			if (entry.getKey().price == keyToReplace) 
+			if (entry.getKey().getPrice() == keyToReplace) 
 			{ 
-				entry.setValue(newValue);
-				break;
-			} 
 
-		} 
+				entry.getKey().setName(newValue);
+				break;
+
+				} 
+
+			}
+		/*
+		System.out.println("Updated Car Details:");*/
+
 		for (Map.Entry<Car, String> entry : tr.entrySet()) 
 		{ 
 			System.out.println(entry. getValue()+". "+entry.getKey());
